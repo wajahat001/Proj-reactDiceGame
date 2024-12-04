@@ -9,7 +9,7 @@ const Button = styled.button`
 function App() {
   return (
     <>
-      <Button> This is B</Button>
+     
     </>
   );
 }
