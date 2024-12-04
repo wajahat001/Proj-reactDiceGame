@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import LandingPage from "./components/landing";
 
 const Button = styled.button`
   background-color: black;
@@ -9,7 +10,7 @@ const Button = styled.button`
 function App() {
   return (
     <>
-     
+     <LandingPage></LandingPage>
     </>
   );
 }
