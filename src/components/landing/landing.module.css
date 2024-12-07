@@ -1,0 +1,22 @@
+.mainContainer{
+    font-size: 15px;
+    display: flex;
+    background-color: white;
+    margin: 40px 50px 30px 30px;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    font-size: 70px;
+    line-height: 10px;
+}
+
+button{
+    float: right;
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

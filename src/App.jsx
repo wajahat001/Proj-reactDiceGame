@@ -1,18 +1,18 @@
-import styled from "styled-components";
 import LandingPage from "./components/landing";
+import MainPage from "./components/main";
 import './App.css'
+import { Route, Routes } from "react-router-dom";
 
-const Button = styled.button`
-  background-color: black;
-  color: white;
-  padding: 10px;
-`;
+
 
 function App() {
   return (
-    <>
-     <LandingPage></LandingPage>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<LandingPage  />}    />   
+        <Route path="/main" element={<MainPage />} />
+      </Routes>
+    </div>
   );
 }
 
