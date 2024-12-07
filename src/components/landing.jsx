@@ -1,15 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
+import styles from './landing.module.css'
 
 
-const h1= styled.h1`
-font-weight: 600;
-font-size: 25px;
-`
 
 
 const LandingPage = () => {
-  return <div className='mainContainer' >
+  return <div className={styles.mainContainer} >
     <div>
     <h1>DICE GAME</h1>
     </div>

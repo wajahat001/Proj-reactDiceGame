@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import LandingPage from "./components/landing";
+import './App.css'
 
 const Button = styled.button`
   background-color: black;
